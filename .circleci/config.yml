@@ -261,7 +261,7 @@ jobs:
               curl https://kvdb.io/${KVDB_BUCKET}/migration_${CIRCLE_WORKFLOW_ID:0:7}  -d '1'
             fi
       - destroy-environment
-      - revert-migrations     
+      - revert-migrations
 
   deploy-frontend:
     docker:
@@ -353,9 +353,9 @@ jobs:
             export API_URL=http://${BACKEND_PUBLIC_IP}:3030
             if curl -s $API_URL/api/status | grep "ok"
             then
-              exit 1
+              exit 0
             else
-              exit 2
+              exit 1
             fi
       - run:
           name: Frontend smoke test.

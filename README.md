@@ -13,7 +13,7 @@
 
 | #     | Description                    | Link                                                 |
 | ----- | ------------------------------ | ---------------------------------------------------- |
-| URL02 | S3 Bucket                      | http://udapeople-8d8e9c2.s3.amazonaws.com/index.html |
-| URL03 | Cloudfront                     | http://d3jv8aiwjpsv2r.cloudfront.net/                |
-| URL04 | Backend Server (Bublic DNS)    | ec2-52-7-127-136.compute-1.amazonaws.com             |
-| URL05 | Prometheus Server (Bublic DNS) | ec2-54-172-194-251.compute-1.amazonaws.com           |
+| URL02 | S3 Bucket                      | http://udapeople-07b93df.s3.amazonaws.com/index.html |
+| URL03 | Cloudfront                     | http://d3jv8aiwjpsv2r.cloudfront.net                 |
+| URL04 | Backend Server (Bublic DNS)    | ec2-52-2-4-247.compute-1.amazonaws.com               |
+| URL05 | Prometheus Server (Bublic DNS) | ec2-54-172-194-251.compute-1.amazonaws.com:9090      |

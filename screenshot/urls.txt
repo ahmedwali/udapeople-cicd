@@ -1,2 +1,5 @@
 URL01 = https://github.com/ahmedwali/udapeople-cicd
-URL02 = http://udapeople-8d8e9c2.s3.amazonaws.com/index.html
+URL02 = http://udapeople-07b93df.s3.amazonaws.com/index.html
+URL03 = http://d3jv8aiwjpsv2r.cloudfront.net
+URL04 = ec2-52-2-4-247.compute-1.amazonaws.com
+URL05 = ec2-54-172-194-251.compute-1.amazonaws.com
